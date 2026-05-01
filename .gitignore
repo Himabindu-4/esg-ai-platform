@@ -1,0 +1,74 @@
+# =========================
+# PYTHON (BACKEND)
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual env
+venv/
+.env/
+.env
+
+# =========================
+# DATA FILES (IMPORTANT ❗)
+# =========================
+
+# Raw SEC filings (VERY LARGE)
+backend/app/data/raw/
+
+# Processed data (optional - ignore if large)
+backend/app/data/processed/
+
+# ESG NER training data (optional)
+backend/app/data/esg_ner/
+
+# Embeddings
+backend/app/data/embeddings/
+
+# Reports (PDF generated)
+backend/app/data/reports/
+*.pdf
+
+# JSON large outputs
+*.json
+
+# =========================
+# MODELS (VERY IMPORTANT ❗)
+# =========================
+backend/app/models/
+ml_models/
+
+# =========================
+# NODE / FRONTEND
+# =========================
+node_modules/
+frontend/node_modules/
+
+dist/
+build/
+
+# =========================
+# VITE / REACT
+# =========================
+frontend/.env
+frontend/.env.local
+
+# =========================
+# LOGS
+# =========================
+*.log
+
+# =========================
+# IDE / EDITOR
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
